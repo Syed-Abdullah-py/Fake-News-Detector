@@ -34,7 +34,7 @@ export default function Homepage() {
     if (pdfFile) {
       try {
         setLoading(true);
-        const response = await fetch('http://127.0.0.1:5000/pdf', {
+        const response = await fetch('https://smabdullah.pythonanywhere.com/pdf', {
           method: 'POST',
           body: pdfFile
         });
@@ -51,7 +51,7 @@ export default function Homepage() {
     else if (textInput.trim()) {
       try {
         setLoading(true);
-        const response = await fetch('http://127.0.0.1:5000/text', {
+        const response = await fetch('https://smabdullah.pythonanywhere.com/text', {
           method: 'POST',
           body: textInput
         });
