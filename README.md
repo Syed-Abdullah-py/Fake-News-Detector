@@ -2,19 +2,7 @@
 A full-stack web application that allows users to input news articles and determine their authenticity using machine learning. The frontend is built with React and Vite, while the backend utilizes Flask and a trained ML model for classification.
 
 📁 Project Structure
-Fake-News-Detector/
-├── backend/
-│   ├── app.py
-│   ├── model.pkl
-│   └── requirements.txt
-└── frontend/
-    ├── app/
-    │   ├── index.html
-    │   ├── main.jsx
-    │   └── ...
-    └── package.json
 backend/: Contains the Flask application and the trained machine learning model.
-
 frontend/app/: Houses the React-Vite frontend application.
 
 🚀 Getting Started
@@ -24,24 +12,24 @@ Python 3.7+
 Node.js 14+ and npm
 
 1. Clone the Repository
->> git clone https://github.com/Syed-Abdullah-py/Fake-News-Detector.git
->> cd Fake-News-Detector
+> git clone https://github.com/Syed-Abdullah-py/Fake-News-Detector.git
+> cd Fake-News-Detector
 
 3. Set Up the Backend
 Navigate to the backend directory and install the required Python packages:
->> cd backend
+> cd backend
 
 4. Start the Flask server:
->> python app.py
+> python app.py
 By default, the backend runs on http://localhost:5000.
 
 5. Set Up the Frontend
 Open a new terminal window, navigate to the frontend/app directory, and install the necessary npm packages:
->> cd frontend/app
->> npm install
+> cd frontend/app
+> npm install
 
 Start the React-Vite development server:
->> npm run dev
+> npm run dev
 The frontend will typically run on http://localhost:5173.
 
 🔗 Connecting Frontend and Backend
